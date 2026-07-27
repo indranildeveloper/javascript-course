@@ -1,15 +1,17 @@
 // JavaScript Variables
-// The const keyword was introduced in ES6 (2015)
-// Variables defined with const cannot be Redeclared
-// Variables defined with const cannot be Reassigned
-// Variables defined with const have Block Scope
 
-// let age = 10;
-// age = age + 2;
+// let eggs = 10;
+// eggs++;
 
-// console.log(age);
+// let eggs = 20;
 
-const age = 10;
-// age = age + 2;
+// console.log(eggs);
 
-console.log(age);
+// var eggs = 10;
+// eggs++;
+// var eggs = "chicken";
+// console.log(eggs);
+
+// eggs = 20;
+
+// console.log(eggs);
