@@ -1,16 +1,15 @@
 // JavaScript Variables
-// JavaScript variables are containers for data.
 
 let age = 10;
-let $name = "John";
+let multiplier = 2;
 
-let userAge = 20;
+// age = age + 10;
+// age += 10;
+// age -= 2;
+// age *= 2;
 
-let eggs = 5;
-
-eggs = eggs + 2;
+// age += 1;
+age++;
+age--;
 
 console.log(age);
-console.log(eggs);
-
-console.log($name);
