@@ -1,20 +1,15 @@
-// Numbers
-// JavaScript Numbers are Always 64-bit Floating Point
+// NaN and Infinity
 
-// console.log(10);
-// console.log(20.6);
+// NaN is a JavaScript reserved word indicating that a number is not a legal number.
 
-// console.log(5 + 6);
-// console.log(5 - 6);
-// console.log(5 * 5);
-// console.log(6 / 3);
-// console.log(5 ** 5); // 5*5*5*5*5
+// Infinity (or -Infinity) is the value JavaScript will return if you calculate a number outside the largest possible number.
 
-// console.log(58 % 3);
+// console.log(0 / 0);
+// console.log(2 + NaN);
+// console.log(typeof NaN);
 
-// console.log(99999999999999);
-// console.log(999999999999999);
-// console.log(9999999999999999);
+// console.log(5 / 0);
+// console.log(-5 / 0);
 
-// console.log(0.2 + 0.1);
-// console.log((0.2 * 10 + 0.1 * 10) / 10);
+// console.log(5 * 0);
+// console.log(-5 * 0);
