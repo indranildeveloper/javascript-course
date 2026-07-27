@@ -1,15 +1,16 @@
-// NaN and Infinity
+// JavaScript Variables
+// JavaScript variables are containers for data.
 
-// NaN is a JavaScript reserved word indicating that a number is not a legal number.
+let age = 10;
+let $name = "John";
 
-// Infinity (or -Infinity) is the value JavaScript will return if you calculate a number outside the largest possible number.
+let userAge = 20;
 
-// console.log(0 / 0);
-// console.log(2 + NaN);
-// console.log(typeof NaN);
+let eggs = 5;
 
-// console.log(5 / 0);
-// console.log(-5 / 0);
+eggs = eggs + 2;
 
-// console.log(5 * 0);
-// console.log(-5 * 0);
+console.log(age);
+console.log(eggs);
+
+console.log($name);
