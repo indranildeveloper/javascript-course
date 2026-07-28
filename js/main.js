@@ -1,17 +1,17 @@
-// JavaScript Variables
+// JavaScript Booleans
 
-// let eggs = 10;
-// eggs++;
+// In JavaScript, a Boolean is a primitive data
+// type that can only have one of two values:
+// true or false
 
-// let eggs = 20;
+// The Boolean value of an expression is the
+// basis for all JavaScript comparisons and
+// conditions.
 
-// console.log(eggs);
+let isLoggedIn = true;
+const hasAccess = false;
 
-// var eggs = 10;
-// eggs++;
-// var eggs = "chicken";
-// console.log(eggs);
+console.log(isLoggedIn);
 
-// eggs = 20;
-
-// console.log(eggs);
+console.log(typeof isLoggedIn);
+console.log(typeof hasAccess);
