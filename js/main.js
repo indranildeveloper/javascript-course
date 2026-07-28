@@ -1,17 +1,18 @@
-// JavaScript Booleans
+// JavaScript Strings
 
-// In JavaScript, a Boolean is a primitive data
-// type that can only have one of two values:
-// true or false
+// Strings are for storing text
+// Strings are written with quotes
 
-// The Boolean value of an expression is the
-// basis for all JavaScript comparisons and
-// conditions.
+let firstName = "John";
+let lastName = "Doe";
 
-let isLoggedIn = true;
-const hasAccess = false;
+let message = 'he said, "lol"';
+let age = 20;
 
-console.log(isLoggedIn);
+let fullName = firstName + " " + lastName;
 
-console.log(typeof isLoggedIn);
-console.log(typeof hasAccess);
+console.log(firstName);
+console.log(lastName);
+console.log(message);
+console.log(fullName);
+console.log(typeof age);
