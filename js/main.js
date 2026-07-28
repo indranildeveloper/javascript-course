@@ -1,6 +1,11 @@
 // JavaScript Strings
 
-let message = "hi there";
+let message = "Hello World!";
+let color = "     blue    ";
 
-console.log(message.length);
-console.log(message[message.length - 1]);
+// message[0] = "M";
+
+// console.log(message.toUpperCase());
+// console.log(message.toLowerCase());
+// console.log(message);
+console.log(color.trim().toUpperCase());
