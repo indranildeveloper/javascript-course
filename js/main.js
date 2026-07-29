@@ -1,11 +1,12 @@
 // JavaScript Strings
 
-let message = "Hello World!";
-let color = "     blue    ";
+let message = "Hello world, welcome to the universe. red, red, red, blue";
+// console.log(message.indexOf("world", 10));
+// console.log(message.indexOf("red"));
+// console.log(message.indexOf("Red"));
+// console.log(message.slice(0, 5));
+// console.log(message.slice(-2));
 
-// message[0] = "M";
+// let result = message.replaceAll("red", "blue");
 
-// console.log(message.toUpperCase());
-// console.log(message.toLowerCase());
-// console.log(message);
-console.log(color.trim().toUpperCase());
+// console.log(result);
