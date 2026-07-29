@@ -1,23 +1,19 @@
-// JavaScript Comparison Operators
+// JavaScript Conditionals
 
-let x = 10;
+// let age = 20;
+// let text = "You can not drive.";
+// let country = "ABC";
 
-// console.log(x == 10);
-// console.log(x == "10");
-// console.log(x == 20);
-// console.log(x == true);
-// console.log(0 == false);
-// console.log(0 == "");
-// console.log(null == undefined);
+// if (country === "USA") {
+//   if (age >= 18) {
+//     text = "You can drive.";
+//   }
+// }
 
-// console.log(x === 10);
-// console.log(x === "10");
-// console.log(0 === false);
-// console.log(0 === "");
-// console.log(null === undefined);
+// console.log(text);
 
-// console.log(x != 10);
-// console.log(x != "10");
+let number = 20;
 
-// console.log(x !== 10);
-// console.log(x !== "10");
+if (number % 2 === 0) {
+  console.log("Even number.");
+}
