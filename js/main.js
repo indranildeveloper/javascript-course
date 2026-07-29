@@ -1,17 +1,15 @@
-// JavaScript Strings
+// JavaScript null and undefined
 
-let firstName = "John";
-let lastName = "Doe";
+// In JavaScript, null is a primitive value that represents the intentional absence of any object value
 
-// let message = "Your full name is " + firstName + " " + lastName + "!";
+// In JavaScript, undefined is a primitive data type and a global property that automatically signifies the absence of an assigned value
 
-let message = `Your full name is ${firstName.toUpperCase()} ${lastName.toUpperCase()}!`;
+// let user = null;
+// user = "John";
 
-console.log(message);
+// let message = "hello";
+// console.log(message[100]);
 
-let price = 10;
-let tax = 0.25;
+let user;
 
-let total = `Your total is: $${(price * (1 + tax)).toFixed(2)}`;
-
-console.log(total);
+console.log(user);
