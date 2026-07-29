@@ -1,18 +1,17 @@
-// JavaScript typeof operator
+// JavaScript parseInt and parseFloat
 
-// The typeof operator returns the data type of a JavaScript variable.
+// console.log(parseInt("10"));
+// console.log(parseInt("10.56"));
+// console.log(parseInt("20 30"));
+// console.log(parseInt("   50  "));
+// console.log(parseInt("20 years"));
+// console.log(parseInt("$20"));
+// console.log(parseInt("he is 40 years old"));
 
-console.log(typeof "John");
-console.log(typeof ("John" + "Doe"));
-console.log(typeof 3.14);
-console.log(typeof 10);
-console.log(typeof true);
-console.log(typeof false);
-console.log(typeof 1234n);
-console.log(Symbol());
-console.log(typeof Symbol());
-console.log(typeof x);
-console.log(typeof undefined);
-console.log(typeof null);
-
-console.log(typeof [1, 2, 3]);
+// console.log(parseFloat("20"));
+// console.log(parseFloat("20.56"));
+// console.log(parseFloat("20 50 60"));
+// console.log(parseFloat("20 years"));
+// console.log(parseFloat("   20 years"));
+// console.log(parseFloat("$20.66"));
+// console.log(parseFloat("he is 40 years old"));
