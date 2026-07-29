@@ -1,17 +1,23 @@
-// JavaScript parseInt and parseFloat
+// JavaScript Comparison Operators
 
-// console.log(parseInt("10"));
-// console.log(parseInt("10.56"));
-// console.log(parseInt("20 30"));
-// console.log(parseInt("   50  "));
-// console.log(parseInt("20 years"));
-// console.log(parseInt("$20"));
-// console.log(parseInt("he is 40 years old"));
+// console.log(5 > 6);
+// console.log(10 > 8);
+// console.log(6 < 7);
+// console.log(8 < 5);
 
-// console.log(parseFloat("20"));
-// console.log(parseFloat("20.56"));
-// console.log(parseFloat("20 50 60"));
-// console.log(parseFloat("20 years"));
-// console.log(parseFloat("   20 years"));
-// console.log(parseFloat("$20.66"));
-// console.log(parseFloat("he is 40 years old"));
+let x = 10;
+
+// console.log(x <= 20);
+// console.log(x <= 10);
+// console.log(x <= 6);
+
+// console.log(x >= 20);
+// console.log(x >= 10);
+// console.log(x >= 5);
+
+// console.log("a" > "A");
+// console.log("a" > "B");
+
+// console.log("$" > "#");
+
+// console.log("a".charCodeAt(0));
