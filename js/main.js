@@ -1,19 +1,14 @@
 // JavaScript Conditionals
 
-// let age = 20;
-// let text = "You can not drive.";
-// let country = "ABC";
+let time = 8;
+let greeting = "Hi";
 
-// if (country === "USA") {
-//   if (age >= 18) {
-//     text = "You can drive.";
-//   }
-// }
-
-// console.log(text);
-
-let number = 20;
-
-if (number % 2 === 0) {
-  console.log("Even number.");
+if (time < 10) {
+  console.log("Good Morning.");
+  greeting = "Hello, Good Morning :)";
+} else if (time < 20) {
+  console.log("Good Day.");
+  greeting = "Hey, have a good day :)";
 }
+
+console.log(greeting);
