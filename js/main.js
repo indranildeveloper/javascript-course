@@ -1,15 +1,17 @@
-// JavaScript Conditionals
+// @ProgrammingWithIndra
 
-let password = "abc def";
+// Falsy Values
+// false
+// 0, -0, 0n
+// "", '', ``
+// null
+// undefined
+// NaN
 
-if (password.length >= 6) {
-  if (password.indexOf(" ") !== -1) {
-    console.log(
-      "Password length is good, but password can not contain spaces.",
-    );
-  } else {
-    console.log("Valid password.");
-  }
+let user = "john";
+
+if (user) {
+  console.log("We have a user.");
 } else {
-  console.log("Password must be at least 6 characters.");
+  console.log("We do not have a user.");
 }
