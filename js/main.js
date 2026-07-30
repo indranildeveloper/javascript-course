@@ -1,7 +1,7 @@
 // @ProgrammingWithIndra
 
-let user = null;
+let x = 5;
 
-let message = user ?? "missing user";
+let result = x == 5 || (x === 3 && x > 10);
 
-console.log(message);
+console.log(result);
