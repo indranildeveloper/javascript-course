@@ -1,22 +1,21 @@
 // @ProgrammingWithIndra
 
-// console.log(true && true);
-// console.log(true && false);
-// console.log(false && true);
-// console.log(false && false);
+// console.log(true || true);
+// console.log(true || false);
+// console.log(false || true);
+// console.log(false || false);
 
-// let password = "abc123";
+// let x = 5;
+// let y = -6;
 
-// if (password.length >= 6 && password.indexOf(" ") === -1) {
-//   console.log("Valid password.");
-// } else {
-//   console.log("Invalid password.");
-// }
+// let z = x > 0 || y > 0;
 
-let number = 8;
+// console.log(z);
 
-if (number >= 0 && number <= 10) {
-  console.log("Valid number.");
+let color = "blue";
+
+if (color === "red" || color === "blue" || color === "green") {
+  console.log("You have selected RGB color.");
 } else {
-  console.log("Please guess a number from 0 to 10.");
+  console.log("You have selected non RGB color.");
 }
