@@ -1,21 +1,20 @@
 // @ProgrammingWithIndra
 
-// console.log(true || true);
-// console.log(true || false);
-// console.log(false || true);
-// console.log(false || false);
+// console.log(!true);
+// console.log(!false);
 
-// let x = 5;
-// let y = -6;
+let user = "john";
 
-// let z = x > 0 || y > 0;
+// if (user) {
+//   console.log("We have a user.");
+// } else {
+//   console.log("We do not have a user.");
+// }
 
-// console.log(z);
-
-let color = "blue";
-
-if (color === "red" || color === "blue" || color === "green") {
-  console.log("You have selected RGB color.");
+if (!user) {
+  console.log("We do not have a user, please log in.");
 } else {
-  console.log("You have selected non RGB color.");
+  console.log("Welcome user.");
 }
+
+console.log(!(8 === 5));
