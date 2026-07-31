@@ -1,17 +1,14 @@
 // @ProgrammingWithIndra
 
-// let age = 10;
+// let colorOne = "red";
+// let colorTwo = "blue";
+// let colorThree = "green";
 
-// if (age < 18) {
-//   console.log("Minor");
-// } else {
-//   console.log("Adult");
-// }
+const colors = ["red", "blue", "green", "purple"];
+console.log(colors);
 
-// age < 18 ? console.log("Minor") : console.log("Adult");
+const shoppingList = ["ice cream", 20, true, NaN, 50.66];
+console.log(shoppingList);
 
-let isMember = true;
-
-let discount = isMember ? 0.2 : 0;
-
-console.log(`Your discount is ${discount * 100}%`);
+const moreColors = new Array("orange", "pink", "black", "white");
+console.log(moreColors);
