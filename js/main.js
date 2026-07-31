@@ -3,10 +3,13 @@
 const colors = ["red", "blue", "green", "purple", "pink", "indigo", "violet"];
 console.log(colors);
 
-let newLength = colors.push("orange");
-console.log(newLength);
-console.log(colors);
+// let newLength = colors.unshift("orange", "yellow");
+// console.log(newLength);
 
-let poppedItem = colors.pop();
-console.log(poppedItem);
+// colors.unshift("orange");
+// colors.unshift("yellow");
+// console.log(colors);
+
+let shiftedElement = colors.shift();
+console.log(shiftedElement);
 console.log(colors);
