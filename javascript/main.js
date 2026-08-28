@@ -1,9 +1,22 @@
 //  @ProgrammingWithIndra
 
-// In JavaScript, a Boolean is a primitive data type that can only have one of two values: true or false
+// Strings are for storing text
+// Strings are written with quotes
 
-const isPremium = true;
-let isFree = false;
+let firstName = "John";
+let lastName = "Doe";
 
-console.log(isPremium);
-console.log(isFree);
+let message = "he said, 'lol'";
+// let num = 5;
+
+let fullName = firstName + " " + lastName;
+
+console.log(fullName);
+
+// console.log("hi" + 5);
+// console.log("hi" - "k");
+
+// console.log(firstName);
+// console.log(lastName);
+// console.log(message);
+// console.log(typeof num);
