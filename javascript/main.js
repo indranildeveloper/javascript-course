@@ -1,14 +1,9 @@
 //  @ProgrammingWithIndra
 
-// let age = 10;
-// age = age + 2;
-// let age = 50;
-// console.log(age);
+// In JavaScript, a Boolean is a primitive data type that can only have one of two values: true or false
 
-// var age = 10;
-// age = age + 2;
-// var age = 50;
-// console.log(age);
+const isPremium = true;
+let isFree = false;
 
-// age = 10;
-// console.log(age);
+console.log(isPremium);
+console.log(isFree);
