@@ -1,12 +1,17 @@
 //  @ProgrammingWithIndra
 
-// Strings are indexed
+// String Methods
+// toUpperCase
+// toLowerCase
+// trim
 
 let message = "Hello World";
-console.log(message.length);
-console.log(message[0]);
-console.log(message[message.length - 1]);
+let messageTwo = message.toUpperCase();
+let messageThree = message.toLowerCase();
+console.log(messageTwo);
+console.log(messageThree);
 
-message[0] = "K";
-
-console.log(message);
+let text = "     hi there      ";
+console.log(text.trim());
+console.log(text.trimStart());
+console.log(text.trimEnd());
