@@ -1,18 +1,15 @@
-//  @ProgrammingWithIndra
+// @ProgrammingWithIndra
 
-let x;
+// console.log(parseInt("10"));
+// console.log(parseInt("10.05"));
+// console.log(parseInt("10.99"));
+// console.log(parseInt("50 60 70"));
+// console.log(parseInt("  50  "));
+// console.log(parseInt("50 years"));
+// console.log(parseInt("He is 50"));
 
-console.log(typeof "John");
-console.log(typeof ("John" + "Doe"));
-console.log(typeof 7);
-console.log(typeof 5.6);
-console.log(typeof (5 + 4));
-console.log(typeof true);
-console.log(typeof false);
-console.log(typeof 1234n);
-console.log(typeof Symbol());
-console.log(x);
-console.log(typeof x);
-console.log(typeof null);
-
-console.log(typeof [1, 2, 3]);
+console.log(parseFloat("10"));
+console.log(parseFloat("10.65"));
+console.log(parseFloat("10 20 30"));
+console.log(parseFloat("10years"));
+console.log(parseFloat("he is 10"));
