@@ -1,24 +1,16 @@
 //  @ProgrammingWithIndra
 
-// Template Strings
+// null and undefined
 
-let firstName = "John";
-let lastName = "Doe";
+// In JavaScript, null is a primitive value that represents the intentional absence of any object value
 
-// Welcome: John Doe!
-// let greeting = "Welcome: " + firstName + " " + lastName + "!";
+// In JavaScript, undefined is a primitive value that automatically represents the absence of an assigned value
 
-let greeting = `Welcome: ${firstName.toUpperCase()} ${lastName}!`;
+let loggedInUser = null;
 
-console.log(greeting);
+loggedInUser = "John Doe";
 
-let price = 10;
-let tax = 0.25;
+console.log(loggedInUser);
 
-let total = `Total: $${(price * (1 + tax)).toFixed(2)}`;
-console.log(total);
-
-let message = `He 
-said,
-"lol"`;
-console.log(message);
+let color = "red";
+console.log(color[100]);
