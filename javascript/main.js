@@ -1,18 +1,10 @@
 //  @ProgrammingWithIndra
 
-// String Methods
-// indexOf
-// slice
-// replace
-// replaceAll -> ES2021
+// Escape Characters
 
-let message = "Hello World. Hello World. Hello World.";
-console.log(message.indexOf("World"));
-console.log(message.indexOf("z"));
-console.log(message.slice(6, 11));
-console.log(message.slice(0));
-
-console.log(message.replace("Hello", "Hi There"));
-console.log(message.replaceAll("Hello", "Hi There"));
-
+let message = "he said, 'lol'";
+let messageTwo = "this is on a\nnew line.";
+let messageThree = "this is separated by a\ttab";
 console.log(message);
+console.log(messageTwo);
+console.log(messageThree);
