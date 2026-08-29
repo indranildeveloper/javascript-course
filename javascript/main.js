@@ -1,16 +1,20 @@
 //  @ProgrammingWithIndra
 
-// null and undefined
+// Math Object
 
-// In JavaScript, null is a primitive value that represents the intentional absence of any object value
+// console.log(Math.E);
+// console.log(Math.PI);
+// console.log(Math.round(4.6));
+// console.log(Math.ceil(4.1));
+// console.log(Math.floor(5.6));
+// console.log(Math.pow(5, 3));
+// console.log(Math.sqrt(64));
+// console.log(Math.abs(-7));
+// console.log(Math.min(0, 1, -5, 6));
+// console.log(Math.max(0, 1, -5, 6));
 
-// In JavaScript, undefined is a primitive value that automatically represents the absence of an assigned value
+// console.log(Math.random());
 
-let loggedInUser = null;
-
-loggedInUser = "John Doe";
-
-console.log(loggedInUser);
-
-let color = "red";
-console.log(color[100]);
+// Random number from 1 to 10
+const randomNumber = Math.floor(Math.random() * 10) + 1;
+console.log(randomNumber);
