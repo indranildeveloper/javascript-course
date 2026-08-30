@@ -1,17 +1,19 @@
 // @ProgrammingWithIndra
 
-// console.log(5 == "5");
-// console.log(5 === "5");
-// console.log(5 === 5);
+// let age = 10;
+// let text = "You can not drive.";
 
-// console.log(1 == true);
-// console.log(1 === true);
+// if (age >= 18) {
+//   text = "You can drive.";
+// }
 
-// console.log(0 == "");
-// console.log(0 === "");
+// console.log(text);
 
-// console.log(null == undefined);
-// console.log(null === undefined);
+let num = 10;
+let text = "Even number.";
 
-console.log(5 != "5");
-console.log(5 !== "5");
+if (num % 2 == 1) {
+  text = "Odd number.";
+}
+
+console.log(text);
