@@ -1,14 +1,11 @@
 // @ProgrammingWithIndra
 
-let age = 20;
-
-console.log(age > 18);
-console.log(age < 18);
-console.log(age >= 20);
-console.log(age >= 18);
-console.log(age <= 20);
-console.log(age <= 18);
-
-console.log("a" > "A");
-console.log(97 > 65);
-console.log("$" > "@");
+// console.log(5 == 5);
+// console.log(5 == 7);
+// console.log(5 == "5");
+// console.log(1 == true);
+// console.log(0 == false);
+// console.log(null == undefined);
+console.log(5 != 5);
+console.log(5 != 7);
+console.log(5 != "5");
