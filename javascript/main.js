@@ -1,9 +1,13 @@
 // @ProgrammingWithIndra
 
-let num = 8;
+let age = 15;
+let country = "USA";
+let text = "You can not drive.";
 
-if (num % 2 === 0) {
-  console.log("Event number.");
-} else {
-  console.log("Odd number.");
+if (country === "USA") {
+  if (age >= 16) {
+    text = "You can drive.";
+  }
 }
+
+console.log(text);
