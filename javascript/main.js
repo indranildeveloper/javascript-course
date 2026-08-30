@@ -1,19 +1,16 @@
 // @ProgrammingWithIndra
 
-// let age = 10;
-// let text = "You can not drive.";
+let time = 20;
+let greeting = "Hello";
 
-// if (age >= 18) {
-//   text = "You can drive.";
-// }
-
-// console.log(text);
-
-let num = 10;
-let text = "Even number.";
-
-if (num % 2 == 1) {
-  text = "Odd number.";
+if (time < 5) {
+  greeting = "Good Night.";
+} else if (time < 12) {
+  greeting = "Good Morning.";
+} else if (time < 17) {
+  greeting = "Good Afternoon.";
+} else if (time < 22) {
+  greeting = "Good Evening.";
 }
 
-console.log(text);
+console.log(greeting);
