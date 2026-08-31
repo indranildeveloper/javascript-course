@@ -1,9 +1,13 @@
 // @ProgrammingWithIndra
 
-let fruits = ["apple", "banana", "cherry", "mango", "lemon", "banana"];
+let fruits = ["apple", "banana", "cherry", "mango"];
 
-let isFound = fruits.includes("banana", 3);
-console.log(isFound);
+let reversedFruits = fruits.reverse();
 
-let foundPosition = fruits.indexOf("banana", 3);
-console.log(foundPosition);
+console.log(fruits);
+console.log(reversedFruits);
+
+let text = fruits.join("-");
+
+console.log(fruits);
+console.log(text);
