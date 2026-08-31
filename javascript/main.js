@@ -1,8 +1,42 @@
 // @ProgrammingWithIndra
 
-// ! -> && -> || -> ??
+let day = 6;
 
-let x = 5;
-let y = (x == 5 || x === 4) && x > 10;
+switch (day) {
+  case 0:
+    console.log("Sunday");
+    break;
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
+    break;
+  case 4:
+    console.log("Thursday");
+    break;
+  case 5:
+    console.log("Friday");
+    break;
+  case 6:
+    console.log("Saturday");
+    break;
+  default:
+    console.log("Please add a valid date (0 - 6).");
+}
 
-console.log(y);
+switch (day) {
+  case 4:
+  case 5:
+    console.log("Soon it will be weekend.");
+    break;
+  case 0:
+  case 6:
+    console.log("It is weekend.");
+    break;
+  default:
+    console.log("Working hard.");
+}
