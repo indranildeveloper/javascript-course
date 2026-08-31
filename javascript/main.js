@@ -1,6 +1,8 @@
 // @ProgrammingWithIndra
 
-let user = "john";
-let text = "no user.";
-let result = user ?? text;
-console.log(result);
+// ! -> && -> || -> ??
+
+let x = 5;
+let y = (x == 5 || x === 4) && x > 10;
+
+console.log(y);
