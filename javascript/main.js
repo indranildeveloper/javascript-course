@@ -1,6 +1,6 @@
 // @ProgrammingWithIndra
 
-// let fruits = ["banana", "cherry", "apple"];
-let fruits = new Array("apple", "banana", "cherry", "orange");
-console.log(fruits);
+let fruits = ["apple", "banana", "cherry", "orange"];
 console.log(fruits.length);
+console.log(fruits[0]);
+console.log(fruits[fruits.length - 1]);
