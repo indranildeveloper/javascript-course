@@ -1,9 +1,16 @@
 // @ProgrammingWithIndra
 
-let fruits = ["apple", "banana", "cherry", "orange"];
+let fruits = ["apple", "banana", "cherry"];
+// let newLength = fruits.push("mango", "lemon");
 
-fruits[0] = "mango";
-fruits[fruits.length - 1] = "pineapple";
-fruits[fruits.length] = "orange";
+// console.log(fruits);
+// console.log(newLength);
 
-console.log(fruits.length);
+fruits.pop();
+fruits.pop();
+fruits.pop();
+
+let poppedFruit = fruits.pop();
+
+console.log(fruits);
+console.log(poppedFruit);
