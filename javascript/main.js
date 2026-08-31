@@ -2,12 +2,9 @@
 
 let fruits = ["apple", "banana", "cherry", "mango"];
 
-let reversedFruits = fruits.reverse();
+let slicedFruits = fruits.slice(0, 3);
+let copyFruits = fruits.slice();
 
+console.log(slicedFruits);
 console.log(fruits);
-console.log(reversedFruits);
-
-let text = fruits.join("-");
-
-console.log(fruits);
-console.log(text);
+console.log(copyFruits);
