@@ -1,11 +1,9 @@
 // @ProgrammingWithIndra
 
-let fruitsOne = ["apple", "banana", "cherry"];
-let fruitsTwo = ["orange", "mango"];
-let fruitsThree = ["lemon", "kiwi"];
+let fruits = ["apple", "banana", "cherry", "mango", "lemon", "banana"];
 
-let combinedFruits = fruitsOne.concat(fruitsTwo, fruitsThree);
-console.log(combinedFruits);
-console.log(fruitsOne);
-console.log(fruitsTwo);
-console.log(fruitsThree);
+let isFound = fruits.includes("banana", 3);
+console.log(isFound);
+
+let foundPosition = fruits.indexOf("banana", 3);
+console.log(foundPosition);
