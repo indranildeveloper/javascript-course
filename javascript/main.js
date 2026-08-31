@@ -1,16 +1,18 @@
 // @ProgrammingWithIndra
 
 let fruits = ["apple", "banana", "cherry"];
-// let newLength = fruits.push("mango", "lemon");
+// let newLength = fruits.unshift("mango", "lemon");
+
+// fruits.unshift("mango");
+// fruits.unshift("lemon");
 
 // console.log(fruits);
 // console.log(newLength);
 
-fruits.pop();
-fruits.pop();
-fruits.pop();
-
-let poppedFruit = fruits.pop();
+fruits.shift();
+fruits.shift();
+fruits.shift();
+let removedFruit = fruits.shift();
 
 console.log(fruits);
-console.log(poppedFruit);
+console.log(removedFruit);
