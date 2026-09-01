@@ -1,17 +1,14 @@
 // @ProgrammingWithIndra
 
-// let text = "hello";
-// let message = text;
+// const num = 4;
 
-// text = "hi there";
+// num = 7;
 
-// console.log(text);
-// console.log(message);
+// console.log(num);
 
-let nums = [1, 2, 3, 4];
-let numsCopy = nums;
+const nums = [1, 2, 3, 4];
 
 nums.push(5);
+nums.pop();
 
 console.log(nums);
-console.log(numsCopy);
