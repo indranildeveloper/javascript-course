@@ -1,14 +1,12 @@
 // @ProgrammingWithIndra
 
-// const num = 4;
+const matrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
 
-// num = 7;
-
-// console.log(num);
-
-const nums = [1, 2, 3, 4];
-
-nums.push(5);
-nums.pop();
-
-console.log(nums);
+console.log(matrix);
+console.log(matrix[1][0]);
+console.log(matrix[2][2]);
+console.log(matrix[0][2]);
