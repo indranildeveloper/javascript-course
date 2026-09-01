@@ -1,10 +1,12 @@
 // @ProgrammingWithIndra
 
+// The splice() method of Array instances changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
+
 let fruits = ["apple", "banana", "cherry", "mango"];
 
-let slicedFruits = fruits.slice(0, 3);
-let copyFruits = fruits.slice();
+// fruits.splice(2, 0, "lemon", "kiwi");
+// let deletedElements = fruits.splice(1, 2);
+let deletedElements = fruits.splice(2, 1, "lemon", "kiwi");
 
-console.log(slicedFruits);
 console.log(fruits);
-console.log(copyFruits);
+console.log(deletedElements);
