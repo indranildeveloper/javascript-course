@@ -1,10 +1,17 @@
 // @ProgrammingWithIndra
 
-let fruits = ["mango", "apple", "cherry", "banana"];
-let nums = [2, 10, 100, 6, 3];
+// let text = "hello";
+// let message = text;
 
-fruits.sort();
-nums.sort();
+// text = "hi there";
 
-console.log(fruits);
+// console.log(text);
+// console.log(message);
+
+let nums = [1, 2, 3, 4];
+let numsCopy = nums;
+
+nums.push(5);
+
 console.log(nums);
+console.log(numsCopy);
