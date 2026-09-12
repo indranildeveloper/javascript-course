@@ -4,16 +4,12 @@ const person = {
   firstName: "John",
   lastName: "Doe",
   age: 40,
+  subjects: ["math", "physics", "chemistry"],
+  exams: {
+    midTerm: 92,
+    final: 98,
+  },
 };
 
-const doesExists = "firstName" in person;
-console.log(doesExists);
-
-// person.age = 20;
-// person["age"] = 25;
-// person.nationality = "English";
-// person["nationality"] = "German";
-
-// delete person.age;
-// delete person["age"];
-console.log(person);
+console.log(person.subjects[0]);
+console.log(person.exams.midTerm);
