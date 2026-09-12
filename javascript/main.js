@@ -1,18 +1,19 @@
 // @ProgrammingWithIndra
 
-const car = {
-  type: "Fiat",
-  model: "500",
-  color: "blue",
-  40: "forty",
-};
-
-const person = new Object({
+const person = {
   firstName: "John",
   lastName: "Doe",
   age: 40,
-  eyeColor: "blue",
-});
+};
 
-console.log(car);
+const doesExists = "firstName" in person;
+console.log(doesExists);
+
+// person.age = 20;
+// person["age"] = 25;
+// person.nationality = "English";
+// person["nationality"] = "German";
+
+// delete person.age;
+// delete person["age"];
 console.log(person);
