@@ -1,12 +1,18 @@
 // @ProgrammingWithIndra
 
-const matrix = [
-  [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 9],
-];
+const car = {
+  type: "Fiat",
+  model: "500",
+  color: "blue",
+  40: "forty",
+};
 
-console.log(matrix);
-console.log(matrix[1][0]);
-console.log(matrix[2][2]);
-console.log(matrix[0][2]);
+const person = new Object({
+  firstName: "John",
+  lastName: "Doe",
+  age: 40,
+  eyeColor: "blue",
+});
+
+console.log(car);
+console.log(person);
