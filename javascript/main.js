@@ -1,14 +1,14 @@
 // @ProgrammingWithIndra
 
-const person = {
+const numsOne = [1, 2, 3];
+const numsTwo = numsOne;
+
+const personOne = {
   firstName: "John",
-  lastName: "Doe",
-  age: 40,
+};
+const personTwo = {
+  firstName: "John",
 };
 
-const person2 = person;
-
-person2.firstName = "Jane";
-
-console.log(person);
-console.log(person2);
+console.log(numsOne === numsTwo);
+console.log(personOne === personTwo);
