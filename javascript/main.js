@@ -1,14 +1,15 @@
 // @ProgrammingWithIndra
 
-const numsOne = [1, 2, 3];
-const numsTwo = numsOne;
+// for (let i = 1; i <= 25; i += 5) {
+//   console.log("Hello: ", i);
+// }
 
-const personOne = {
-  firstName: "John",
-};
-const personTwo = {
-  firstName: "John",
-};
+// for (let i = 51; i <= 60; i++) {
+//   console.log("hello", i);
+// }
 
-console.log(numsOne === numsTwo);
-console.log(personOne === personTwo);
+for (let num = 50; num > 0; num -= 10) {
+  console.log("Hello", num);
+}
+
+console.log("after the loop");
