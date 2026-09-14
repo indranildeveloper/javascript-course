@@ -1,17 +1,12 @@
 // @ProgrammingWithIndra
 
-const colors = ["red", "green", "blue", "purple"];
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 40,
+  marks: 98,
+};
 
-// for (let i = 0; i < colors.length; i++) {
-//   console.log(colors[i]);
-// }
-
-for (let color of colors) {
-  console.log(color);
-}
-
-const language = "JavaScript";
-
-for (let char of language) {
-  console.log(char);
+for (let property of Object.keys(person)) {
+  console.log(property, person[property]);
 }
