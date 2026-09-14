@@ -1,18 +1,17 @@
 // @ProgrammingWithIndra
 
-const target = Math.floor(Math.random() * 10);
-let guess = Math.floor(Math.random() * 10);
+const colors = ["red", "green", "blue", "purple"];
 
-while (target !== guess) {
-  guess = Math.floor(Math.random() * 10);
-  console.log(`Target: ${target}, Guess: ${guess}`);
+// for (let i = 0; i < colors.length; i++) {
+//   console.log(colors[i]);
+// }
+
+for (let color of colors) {
+  console.log(color);
 }
 
-console.log("Hey you win the game.");
+const language = "JavaScript";
 
-// for (let i = 0; i <= 10; i++) {
-//   if (i === 5) {
-//     break;
-//   }
-//   console.log(i);
-// }
+for (let char of language) {
+  console.log(char);
+}
