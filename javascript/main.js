@@ -1,31 +1,28 @@
 // @ProgrammingWithIndra
 
-// for (let i = 0; i < 3; i++) {
-//   console.log("OUTER LOOP: ", i);
-//   for (let j = 0; j < 3; j++) {
-//     console.log("   INNER LOOP: ", j);
-//   }
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i);
 // }
 
-// const matrix = [
-//   [1, 2, 3],
-//   [4, 5, 6],
-//   [7, 8, 9],
-// ];
-
-// for (let i = 0; i < matrix.length; i++) {
-//   for (let j = 0; j < matrix[i].length; j++) {
-//     console.log(matrix[i][j]);
-//   }
+// let j = 1;
+// while (j <= 10) {
+//   console.log(j);
+//   j++;
 // }
 
-const shirts = ["red", "blue"];
-const sizes = ["s", "m", "l"];
+// let k = 15;
 
-for (let shirt = 0; shirt < shirts.length; shirt++) {
-  for (let size = 0; size < sizes.length; size++) {
-    console.log(
-      `${shirts[shirt]} shirt is available in the size ${sizes[size]}`,
-    );
-  }
+// do {
+//   console.log(k);
+//   k++;
+// } while (k <= 10);
+
+const target = Math.floor(Math.random() * 10);
+let guess = Math.floor(Math.random() * 10);
+
+while (target !== guess) {
+  guess = Math.floor(Math.random() * 10);
+  console.log(`Target: ${target}, Guess: ${guess}`);
 }
+
+console.log("Hey you win the game.");
