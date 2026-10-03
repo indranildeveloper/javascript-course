@@ -1,5 +1,5 @@
 {
-  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.CustomBrowser": "google-chrome-stable",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }

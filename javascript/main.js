@@ -1,14 +1,26 @@
 // @ProgrammingWithIndra
 
-function rollDice() {
-  const roll = Math.floor(Math.random() * 6);
-  console.log(`Rolled: ${roll}`);
+function greet(firstName, lastName) {
+  console.log(`Hello, ${firstName} ${lastName}`);
 }
 
-function rollDiceTenTimes() {
-  for (let i = 1; i <= 10; i++) {
-    rollDice();
-  }
+greet("John", "Doe");
+
+function sumTwo(a, b) {
+  console.log(a + b);
 }
 
-rollDiceTenTimes();
+sumTwo(5, 6);
+
+function sumThree(a, b, c) {
+  console.log(a + b + c);
+}
+
+sumThree(1, 2, 3);
+
+function divide(a, b) {
+  console.log(a / b);
+}
+
+divide(1, 5);
+divide(5, 1);
