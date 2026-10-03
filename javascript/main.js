@@ -1,26 +1,53 @@
 // @ProgrammingWithIndra
 
 function greet(firstName, lastName) {
-  console.log(`Hello, ${firstName} ${lastName}`);
+  return `Hello, ${firstName} ${lastName}`;
 }
 
-greet("John", "Doe");
+const result = greet("John", "Doe");
+console.log(result);
 
-function sumTwo(a, b) {
-  console.log(a + b);
+function sum(a, b) {
+  return a + b;
 }
 
-sumTwo(5, 6);
+console.log(sum(5, 6));
 
-function sumThree(a, b, c) {
-  console.log(a + b + c);
+// function checkAge(age) {
+//   if (age < 18) {
+//     return "Too young.";
+//   } else {
+//     return "Access granted.";
+//   }
+// }
+
+// function checkAge(age) {
+//   if (age < 18) {
+//     return "Too young.";
+//   }
+//   return "Access granted.";
+// }
+
+function checkAge(age) {
+  return age < 18 ? "Too young." : "Access granted.";
 }
 
-sumThree(1, 2, 3);
+console.log(checkAge(14));
 
-function divide(a, b) {
-  console.log(a / b);
+// function isEvenNumber(num) {
+//   if (num % 2 === 0) {
+//     return true;
+//   }
+//   return false;
+// }
+
+// function isEvenNumber(num) {
+//   return num % 2 === 0 ? true : false;
+// }
+
+function isEvenNumber(num) {
+  return num % 2 === 0;
 }
 
-divide(1, 5);
-divide(5, 1);
+console.log(isEvenNumber(20));
+console.log(isEvenNumber(25));
