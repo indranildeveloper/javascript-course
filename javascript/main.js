@@ -1,32 +1,20 @@
 // @ProgrammingWithIndra
 
-// if (true) {
-//   let x = 10;
-//   console.log(x);
-// }
+let color = "green";
 
-// console.log(x);
+function outer() {
+  let color = "blue";
+  function inner() {
+    let color = "red";
 
-// const colors = ["red", "green", "blue"];
+    function superInner() {
+      let color = "purple";
+      console.log(color.toUpperCase());
+    }
 
-// let i = 50;
-
-// for (let i = 0; i < colors.length; i++) {
-//   console.log(i, colors[i]);
-// }
-
-// console.log(i);
-
-// const nums = [1,2,3]
-
-function makeDouble(nums) {
-  let result = [];
-  for (let num of nums) {
-    const double = num * 2;
-    result.push(double);
+    superInner();
   }
-  return result;
+  inner();
 }
 
-const result = makeDouble([1, 2, 3]);
-console.log(result);
+outer();
